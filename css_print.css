@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
+@media screen {
+    .hide-on-screen {
+        display: none;
+    }
+}
+
+div.text_1 {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 18px;
+}
+
+div.header {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
