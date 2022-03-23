@@ -22,7 +22,7 @@
                                 </label>
                             </div>
                             <div class="col-7">
-                                <input type="text" class="form-control" id="txt_name" name="txt_name" placeholder="ชื่อ-นามสกุล(ไทย)">
+                                <input type="text" class="form-control" id="txt_name" name="txt_name" placeholder="ชื่อ-นามสกุล(ไทย)" required="true">
                             </div>
 
                             <div class="col-4 text-end">
@@ -31,7 +31,7 @@
                                 </label>
                             </div>
                             <div class="col-7">
-                                <input type="text" class="form-control" id="txt_name_eng" name="txt_name_eng" placeholder="FirstName-LastName(English)">
+                                <input type="text" class="form-control" id="txt_name_eng" name="txt_name_eng" placeholder="FirstName-LastName(English)" required="true">
                             </div>
 
                             <div class="col-4 text-end">
@@ -40,7 +40,7 @@
                                 </label>
                             </div>
                             <div class="col-7">
-                                <input type="text" class="form-control" id="txt_numcard" name="txt_numcard" maxlength="13" placeholder="หมายเลขบัตรประจำตัวประชาชน">
+                                <input type="text" class="form-control" id="txt_numcard" name="txt_numcard" maxlength="13" placeholder="หมายเลขบัตรประจำตัวประชาชน" required="true">
                             </div>
 
                             <div class="col-4 text-end">
@@ -49,7 +49,7 @@
                                 </label>
                             </div>
                             <div class="col-7">
-                                <input type="text" class="form-control" id="txt_role" name="txt_role" placeholder="ตำแหน่ง">
+                                <input type="text" class="form-control" id="txt_role" name="txt_role" placeholder="ตำแหน่ง" required="true">
                             </div>
 
                             <div class="col-4 text-end">
@@ -58,7 +58,7 @@
                                 </label>
                             </div>
                             <div class="col-7">
-                                <input type="text" class="form-control" id="txt_workplace" name="txt_workplace" placeholder="สถานที่ปฏิบัตรงาน">
+                                <input type="text" class="form-control" id="txt_workplace" name="txt_workplace" placeholder="สถานที่ปฏิบัตรงาน" required="true">
                             </div>
 
                             <div class="col-4 text-end">
@@ -67,7 +67,7 @@
                                 </label>
                             </div>
                             <div class="col-7">
-                                <input type="text" class="form-control" id="txt_phone" name="txt_phone" maxlength="10" placeholder="โทรศัพท์">
+                                <input type="text" class="form-control" id="txt_phone" name="txt_phone" maxlength="10" placeholder="โทรศัพท์" required="true">
                             </div>
 
                             <div class="col-4 text-end">
@@ -76,7 +76,7 @@
                                 </label>
                             </div>
                             <div class="col-7">
-                                <input type="email" class="form-control" id="txt_email" name="txt_email" aria-describedby="emailHelp" placeholder="E-mail">
+                                <input type="email" class="form-control" id="txt_email" name="txt_email" aria-describedby="emailHelp" placeholder="E-mail" required="true">
                             </div>
 
                             <div class="col-4 text-end">
@@ -85,7 +85,7 @@
                                 </label>
                             </div>
                             <div class="col-7">
-                                <input type="text" class="form-control" id="txt_account" maxlength="16" name="txt_account" placeholder="ชื่อบัญชี(Account Name)">
+                                <input type="text" class="form-control" id="txt_account" maxlength="16" name="txt_account" placeholder="ชื่อบัญชี(Account Name)" required="true">
                                 <div id="txt_account" class="form-text">ความยาว 8-16 ตัวอักษร</div>
                             </div>
 
@@ -95,7 +95,7 @@
                                 </label>
                             </div>
                             <div class="col-7">
-                                <input type="password" class="form-control" id="txt_password" maxlength="16" name="txt_password" placeholder="รหัสผ่าน(Password)">
+                                <input type="password" class="form-control" id="txt_password" maxlength="16" name="txt_password" placeholder="รหัสผ่าน(Password)" required="true">
                                 <div id="txt_password" class="form-text">ความยาว 8-16 ตัวอักษร</div>
                             </div>
 

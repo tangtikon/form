@@ -185,7 +185,7 @@ if (isset($_POST['save'])) {
                             '$txt_email', '$txt_account', '$txt_password')");
 
     if ($query) {
-        echo "บันทึกสำเร็จ";
+        header("refresh:0; success.php");
     } else {
         die(mysqli_error($conn));
     }
