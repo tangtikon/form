@@ -1,7 +1,14 @@
 <?php include 'header.php' ?>
 <link rel="stylesheet" href="css_index.css">
 <title>แบบฟอร์มลงทะเบียนใช้บริการอินเตอร์เน็ต</title>
-
+<style>
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: black;
+}
+</style>
 <body>
     <br> <br>
     <div class="container">
@@ -111,6 +118,11 @@
         </div>
     </div>
     <br> <br>
+    <footer>
+        Copyright © 2022 พัฒนาโดย นายตั้งติกรณ์ อินทิสาร
+        นิสิตฝึกประสบการณ์วิชาชีพ ระหว่างเดือนธันวาคม 2564 - มีนาคม 2565
+        สาขาเทคโนโลยีสารเทศ คณะวิทยาการสารสนเทศ มหาวิทยาลัยมหาสารคาม
+    </footer>
 </body>
 
 </html>

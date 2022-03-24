@@ -180,12 +180,13 @@ if (isset($_POST['print'])) {
 if (isset($_POST['save'])) {
     include('connect.php');
 
-    $query = $conn->query("INSERT INTO form (name, surname, numcard,role, workplace, phone, email, username, password)
+    $query = $conn->query("INSERT INTO form (name_th, name_eng, numcard,role, workplace, phone, email, username, password)
                             VALUES('$txt_name', '$txt_name_eng', '$txt_numcard', '$txt_role', '$txt_workplace', '$txt_phone', 
                             '$txt_email', '$txt_account', '$txt_password')");
 
     if ($query) {
-        header("refresh:0; success.php");
+        // header("refresh:0; success.php?nameth=$txt_name&&nameeng=$txt_name_eng&&numcard=$txt_numcard&&role=$txt_role&&workplace=$txt_workplace&&phone=$txt_phone&&email=$txt_email&&username=$txt_account&&password=$txt_password");
+        include ("success.php");
     } else {
         die(mysqli_error($conn));
     }
