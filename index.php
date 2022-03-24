@@ -2,13 +2,14 @@
 <link rel="stylesheet" href="css_index.css">
 <title>แบบฟอร์มลงทะเบียนใช้บริการอินเตอร์เน็ต</title>
 <style>
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: white;
-  color: black;
-}
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color: white;
+        color: black;
+    }
 </style>
+
 <body>
     <br> <br>
     <div class="container">
@@ -17,6 +18,7 @@ footer {
             <div class="col-md-9">
                 <div class="card p-3 py-5">
                     <div class="header text-center">
+                        <img src="img/logo.jpg" width="100" height="100"><br>
                         แบบฟอร์มลงทะเบียนใช้บริการอินเตอร์เน็ต<br>
                         สำนักงานสาธารณสุขจังหวัดขอนแก่น
                     </div>
